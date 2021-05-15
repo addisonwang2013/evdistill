@@ -61,7 +61,7 @@ python test_evdistill.py
 Visualize semantic segmentation results for both event and aps data:
 
 ```python
-python submission.py
+python visualize.py
 ```
 
 ## Note 
