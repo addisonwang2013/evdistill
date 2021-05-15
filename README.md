@@ -48,11 +48,12 @@ pip install -r requirements.txt
 
 Download DDD17 test and MVSEC test dataset from this link: [DDD17 test and MVSEC test](https://sites.google.com/site/addisionlinwang/products-services?authuser=0)
 
-Put the dataset to `./dataset/ddd17/`
+* For DDD17 dataset, please put the dataset to `./dataset/ddd17/`
+* For MVSEC dataset, please put the dataset to `./dataset/mvsec/`
 
 Download the pretrained models from this link: [checkpoints](https://sites.google.com/site/addisionlinwang/products-services?authuser=0)
 
-Put the checkpoints of event and aps segmentation networks for e.g. DDD17 dataset into `./res/`
+* Put the checkpoints of event and aps segmentation networks for e.g. DDD17 dataset into `./res/`
 
 Test the MIoU of event and aps segmentation networks:
 
