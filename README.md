@@ -66,11 +66,11 @@ Visualize semantic segmentation results for both event and aps data:
 python submission.py
 ```
 
-Note 
+## Note 
 
-In this work, for convenience, the event data are embedded as multi-channel event images, which are the paired with aps frames for DDD17 and MVSEC dataset. Please be noted that it is also possible to directly feed event raw data to the student network with aps frames.
+In this work, for convenience, the event data are embedded and stored as multi-channel event images, which are the paired with the aps frames. Please be noted that it is also possible to directly feed event raw data to the student network with aps frames.
 
-Acknowledgement
+## Acknowledgement
 The skeleton code is inspired by [Deeplab-v3-Plus](https://github.com/CoinCheung/DeepLab-v3-plus-cityscapes/)
 
 ## License
