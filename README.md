@@ -71,7 +71,7 @@ Note
 In this work, for convenience, the event data are embedded as multi-channel event images, which are the paired with aps frames for DDD17 and MVSEC dataset. Please be noted that it is also possible to directly feed event raw data to the student network with aps frames.
 
 Acknowledgement
-The skeleton code is inspired by [ Deeplab-v3-Plus ] (https://github.com/CoinCheung/DeepLab-v3-plus-cityscapes)
+The skeleton code is inspired by [Deeplab-v3-Plus](https://github.com/CoinCheung/DeepLab-v3-plus-cityscapes/)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
