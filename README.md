@@ -1,7 +1,7 @@
 ## EvDistill: Asynchronous Events to End-task Learning via Bidirectional Reconstruction-guided Cross-modal Knowledge Distillation (CVPR'21)
 
 ## Citation
-if you find this resource helpful, please cite the paper as follows:
+If you find this resource helpful, please cite the paper as follows:
 
 ```bash
 @article{wangevdistill,
@@ -11,6 +11,13 @@ if you find this resource helpful, please cite the paper as follows:
   year={2021}
 }
 ```
+* Segmentic segmentation on DDD17 dataset
+
+![image](https://user-images.githubusercontent.com/79432299/118368456-1df61b00-b5dd-11eb-87a7-54a1714628f9.png)
+
+* Segmentic segmentation on MVSEC dataset
+
+![image](https://user-images.githubusercontent.com/79432299/118368521-5a297b80-b5dd-11eb-8a98-b38c9879f014.png)
 
 ## Maintainer
 [Lin Wang](https://sites.google.com/site/addisionlinwang/products-services?authuser=0)
@@ -46,6 +53,12 @@ Put the dataset to `./dataset/ddd17/`
 Download the pretrained models from this link: [checkpoints](https://sites.google.com/site/addisionlinwang/products-services?authuser=0)
 
 Put the checkpoints of event and aps segmentation networks into `./res/`
+
+Test the MIoU of event and aps segmentation networks:
+
+```python
+python test_evdistill.py
+```
 
 Visualize semantic segmentation results for both event and aps data:
 
