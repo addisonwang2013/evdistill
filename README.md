@@ -50,8 +50,9 @@ Put the checkpoints of event and aps segmentation networks into `./res/`
 Visualize semantic segmentation results for both event and aps data:
 
 ```python
-python 
+python submission.py
 ```
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
