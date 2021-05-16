@@ -52,6 +52,14 @@ Download the pretrained models from this link: [checkpoints](https://sites.googl
 
 * Put the checkpoints of event and aps segmentation networks for e.g. DDD17 dataset into `./res/`
 
+Modify the ``` python configurations.py ``` in the `configs` folder with the relevant paths to the test data and checkpoints
+
+* For the test data, *e.g.* DDD17, please assign the path to `./test_dir/ddd17/`
+* For the checkpoint of aps nework, please assign the path to `./res/ddd17/ddd17_aps_ckpt.pth`
+* For the checkpoint of event network, please assign the path to `./res/ddd17/ddd17_event_ckpt.pth`
+
+
+
 Test the MIoU of event and aps segmentation networks:
 
 ```python
