@@ -43,12 +43,12 @@ cd evdistill
 pip install -r requirements.txt
 ```
 
-Download DDD17 test and MVSEC test dataset from this link: [DDD17 test and MVSEC test](https://sites.google.com/site/addisionlinwang/products-services?authuser=0)
+Download DDD17 test and MVSEC test dataset from this link: [DDD17 test and MVSEC test](https://drive.google.com/drive/u/1/folders/1zhQCr0r_xfButDnLLy1BoD2j7EGP18NQ)
 
 * For DDD17 dataset, please put the dataset to `./dataset/ddd17/`
 * For MVSEC dataset, please put the dataset to `./dataset/mvsec/`
 
-Download the pretrained models from this link: [checkpoints](https://sites.google.com/site/addisionlinwang/products-services?authuser=0)
+Download the pretrained models from this link: [checkpoints](https://drive.google.com/drive/u/1/folders/10h7jhvzMX2dNKlbLXhp3ARRkhbUl8L7J)
 
 * Put the checkpoints of event and aps segmentation networks for e.g. DDD17 dataset into `./res/`
 
