@@ -79,9 +79,6 @@ In this work, for convenience, the event data are embedded and stored as multi-c
 ## Acknowledgement
 The skeleton code is inspired by [Deeplab-v3-Plus](https://github.com/CoinCheung/DeepLab-v3-plus-cityscapes/)
 
-## Maintainer
-[Lin Wang](https://sites.google.com/site/addisionlinwang/products-services?authuser=0)
-
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
