@@ -1,5 +1,7 @@
 ## EvDistill: Asynchronous Events to End-task Learning via Bidirectional Reconstruction-guided Cross-modal Knowledge Distillation (CVPR'21)
 
+We have updated our paper by adding more references and corrected some typos. For the latest version, please refer to the Arxiv paper at https://arxiv.org/pdf/2111.12341.pdf.
+
 ## Citation
 If you find this resource helpful, please cite the paper as follows:
 
